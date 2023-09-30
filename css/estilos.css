@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100;200;400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+.header{
+    height: 100vh;
+}
+
+.principalArea{
+    width: 100%;
+    background-color: #070707eb;
+    padding-top: 18px;
+    padding-bottom: 2em;
+    padding-right: 3rem;
+}
+
+.lateralNegro {
+    background-color: #000;
+    width: 4.4em;
+    padding: 2em 10px;
+}
+.logo{
+    color: #FFF;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: -1px;
+}
+
+.ulRedes{
+   list-style: none;
+   padding-left: 0;
+}
+
+.ulRedes > li {
+    font-size: 1.5em;
+    margin: 20px auto;
+}
+.boxTwo{
+    height: 90%;
+    .h1{
+        color: #ffffffe9;
+        font-weight: bold;
+        font-size: 7.5em;
+        letter-spacing: -5px;
+    }
+}
+.imagenPrincipal{
+    background-image:url(../images/imgPrincipal.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.colorFondo{
+    background-color: #161616ec;
+}
+.containerImgGaleria{
+  height:400px;
+}
+.containerImgGaleria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer{
+    background-color: #070707eb;
+    height: 60vh;
+}
+
+.linksFooter{
+    border-bottom: 2px solid gray;
+}
+
+.linksFooter ul{
+    list-style: none;
+    padding-left: 0;
+}
+.linksFooter ul li{
+    margin-bottom: 10px;
+}
+.linksFooter ul li a{
+   text-decoration: none;
+   color:white;
+}
+
+.redSocial{
+    font-size: 2rem;
+    padding-left: 20px;
+}
+
+.fa-whatsapp{
+    color:green;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 768px){
+    .boxTwo{
+        .textoPrincipal{
+            height: 40%;
+        }
+        .imagenPrincipal{
+            height: 60%;
+        }
+        .h1{
+           font-size: 4rem;
+        }
+    }
+    .containerImgGaleria{
+        height:500px;
+    }
+    /*
+    .versionMobile{
+        display: none!important;
+    }*/
+}

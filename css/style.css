@@ -6,10 +6,17 @@
     box-sizing: border-box;
 }
 
-html{
+body{
     font-family: 'Lexend Exa', sans-serif;
 }
 
+.vistaEscritorio{
+    display:flex;
+}
+
+.vistaMobile{
+    display:none;
+}
 
 /* Header Barra Lateral */
 
@@ -367,7 +374,17 @@ footer > hr{
     color: #ffffffc4;
 }
 
-
+@media screen and (max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+    .vistaEscritorio{
+        display:none;
+    }
+    .vistaMobile{
+        display:flex;
+    }
+}
 
 
 
